@@ -6,22 +6,34 @@ const item      = { hidden: { opacity: 0, y: 32 }, show: { opacity: 1, y: 0, tra
 
 const JOBS = [
   {
-    date: '2026 – Present',
+    date: 'March 2026 – Present',
+    company: 'SortMyPrep',
+    role: "Founder's Office Intern (GTM & Engineering)",
+    bullets: [
+      <>Built and maintain a <strong>CRM and lead-tracking dashboard</strong>, plus outreach automation scripts, that the team runs its follow-ups and reporting on — cutting manual reporting time.</>,
+      'Own outbound end-to-end for coaching centres and schools: building target lists, writing and sending outreach, and adjusting the approach weekly based on what gets replies.',
+      <>Run the full sales cycle — qualification, pitching, negotiation, and closing — converting cold and warm interest into <strong>signed clients worth lakhs in revenue</strong>.</>,
+      'Take initiative on open-ended problems with minimal direction: mapping new segments, testing new messaging angles, and bringing findings back to the founders.',
+    ],
+    tags: ['GTM', 'Engineering', 'CRM', 'Sales'],
+  },
+  {
+    date: 'January 2026 – April 2026',
     company: 'Jinn AI',
     role: 'Sales Associate',
     bullets: [
-      <>Own the <strong>full sales cycle</strong> — lead generation, outreach, pitching, and closing — working directly with founders on <strong>GTM strategy</strong>.</>,
-      <>Drive <strong>growth planning</strong>, translating voice AI product value into compelling narratives for EdTech, healthcare, and service verticals.</>,
+      <>Owned the <strong>full sales cycle</strong> — lead generation, cold outreach, pitching, and closing — working directly with founders on <strong>GTM strategy</strong>.</>,
+      'Wrote outreach and pitch narratives that translated product value into a clear, compelling case for prospective clients and partners.',
     ],
     tags: ['B2B Sales', 'GTM', 'Voice AI', 'Outreach'],
   },
   {
-    date: 'Nov 2025 – Present',
-    company: '@adnan bricks',
+    date: 'November 2025 – April 2026',
+    company: '@adnan_bricks',
     role: 'Influencer Growth Manager',
     bullets: [
-      <>Scaled the Instagram channel to <strong>50M+ views/month</strong> through data-driven content strategy and format experimentation.</>,
-      'Continuously iterated on content hooks and distribution tactics to improve reach, engagement, and conversion.',
+      <>Ran content operations for the channel — testing formats and hooks and doubling down on what converted attention into engagement — to grow it to <strong>50M+ views/month</strong>.</>,
+      'Treated flat weeks as a problem to solve, not a reason to slow down: kept iterating on distribution tactics until reach improved.',
     ],
     tags: ['Content Strategy', 'Analytics', 'Growth'],
   },

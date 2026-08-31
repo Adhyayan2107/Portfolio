@@ -120,6 +120,31 @@
   font-weight: 800;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.project-link {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--charcoal);
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.project-link:hover {
+  border-color: var(--rust);
+  color: var(--rust);
+}
+
 .project-tags {
   margin-top: auto;
   display: flex;

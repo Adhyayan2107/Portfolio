@@ -33,6 +33,60 @@ const PROJECTS = [
     body: 'Built the <strong>Bricks AI LMS</strong>, designed around <strong>voice AI tutoring</strong> and practice-led learning so students could learn concepts by doing instead of just watching.',
     tags: ['LMS', 'Voice AI', 'EdTech'],
   },
+  {
+    num: '05',
+    label: 'Internal Tooling',
+    title: 'Communication Standardisation Tool',
+    body: 'Built a tool to <strong>standardise team communication</strong> — turning inconsistent messaging into a consistent, on-brand format across the org.',
+    tags: ['Automation', 'NLP', 'Internal Tools'],
+    links: [
+      { label: 'Live', url: 'https://commstdtool.vercel.app/' },
+      { label: 'Walkthrough', url: 'https://www.loom.com/share/63d7c854e96347e794fceb11136c8202' },
+      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/Communication_Standardisation_Tool' },
+    ],
+  },
+  {
+    num: '06',
+    label: 'Growth Systems',
+    title: 'Post Automation Tool',
+    body: 'Built a tool to <strong>automate content posting</strong>, cutting the manual work out of scheduling and publishing.',
+    tags: ['Automation', 'Content Ops'],
+    links: [
+      { label: 'Live', url: 'https://post-automation-blond.vercel.app/posts' },
+      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/Post-Automation' },
+    ],
+  },
+  {
+    num: '07',
+    label: 'GTM Systems',
+    title: 'SortMyPrep Lead Automation',
+    body: 'Built a <strong>lead generation and outreach automation</strong> system for SortMyPrep, powering target-list building and follow-ups end-to-end.',
+    tags: ['Lead Gen', 'Automation', 'GTM'],
+    links: [
+      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/SortMyPrep-Lead-Automation' },
+    ],
+  },
+  {
+    num: '08',
+    label: 'Full-Stack Product',
+    title: 'SortMyPrep CRM',
+    body: 'Built the <strong>entire CRM</strong> for SortMyPrep from scratch — lead tracking, outreach, and reporting in one dashboard the team runs daily.',
+    tags: ['CRM', 'Full-Stack', 'Dashboard'],
+    links: [
+      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/sortmyprepcrm' },
+    ],
+  },
+  {
+    num: '09',
+    label: 'Marketing Tools',
+    title: 'SortMyPrep Score Predictor',
+    body: 'Built a small <strong>marketing tool</strong> for SortMyPrep that predicts scores/odds to drive engagement and conversion.',
+    tags: ['Marketing', 'Prediction'],
+    links: [
+      { label: 'Live', url: 'https://sortmyprep-score-pred.vercel.app/odds' },
+      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/sortmyprep-score-pred' },
+    ],
+  },
 ];
 
 export default function Projects() {
@@ -68,6 +122,15 @@ export default function Projects() {
             </div>
             <h3 className="project-title">{project.title}</h3>
             <p className="project-body" dangerouslySetInnerHTML={{ __html: project.body }} />
+            {project.links && (
+              <div className="project-links">
+                {project.links.map(link => (
+                  <a className="project-link" href={link.url} target="_blank" rel="noreferrer" key={link.label}>
+                    {link.label} ↗
+                  </a>
+                ))}
+              </div>
+            )}
             <div className="project-tags">
               {project.tags.map(tag => <span className="project-tag" key={tag}>{tag}</span>)}
             </div>
