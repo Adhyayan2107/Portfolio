@@ -40,6 +40,8 @@ export default function About() {
           <span className="social-sep" />
           <a href="https://linkedin.com/in/adhyayan-gupta" target="_blank" rel="noreferrer" className="social-link">LinkedIn</a>
           <span className="social-sep" />
+          <a href="https://github.com/Adhyayan2107" target="_blank" rel="noreferrer" className="social-link">GitHub</a>
+          <span className="social-sep" />
           <a href="tel:+916369014985" className="social-link">+91 63690 14985</a>
         </motion.div>
       </div>
