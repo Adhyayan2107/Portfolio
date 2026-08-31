@@ -6,7 +6,7 @@ const item      = { hidden: { opacity: 0, y: 32 }, show: { opacity: 1, y: 0, tra
 
 const JOBS = [
   {
-    date: 'March 2026 – Present',
+    date: 'Mar 2026 – Present',
     company: 'SortMyPrep',
     role: "Founder's Office Intern (GTM & Engineering)",
     bullets: [
@@ -18,7 +18,7 @@ const JOBS = [
     tags: ['GTM', 'Engineering', 'CRM', 'Sales'],
   },
   {
-    date: 'January 2026 – April 2026',
+    date: 'Jan 2026 – Apr 2026',
     company: 'Jinn AI',
     role: 'Sales Associate',
     bullets: [
@@ -28,7 +28,7 @@ const JOBS = [
     tags: ['B2B Sales', 'GTM', 'Voice AI', 'Outreach'],
   },
   {
-    date: 'November 2025 – April 2026',
+    date: 'Nov 2025 – Apr 2026',
     company: '@adnan_bricks',
     role: 'Influencer Growth Manager',
     bullets: [

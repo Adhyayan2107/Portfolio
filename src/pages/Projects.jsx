@@ -7,34 +7,6 @@ const card = { hidden: { opacity: 0, y: 26 }, show: { opacity: 1, y: 0, transiti
 const PROJECTS = [
   {
     num: '01',
-    label: 'Marketing Systems',
-    title: 'ShouldI?',
-    body: 'Built a <strong>decision-making system</strong> for a marketing company where agent personas could simulate reactions to launch ideas and campaign decisions before going live. It was used to launch <strong>3 marketing campaigns</strong>, and <strong>all three were hits</strong>.',
-    tags: ['Agents', 'Personas', 'Marketing'],
-  },
-  {
-    num: '02',
-    label: 'Knowledge Systems',
-    title: 'RAG Document Retrieval Platform',
-    body: 'Built a <strong>RAG system</strong> to help teams find company documents faster. The same approach was later adopted by my college for document discovery and internal knowledge access.',
-    tags: ['RAG', 'Docs Search', 'Knowledge Base'],
-  },
-  {
-    num: '03',
-    label: 'Mobile Product',
-    title: 'LittleKars Flutter App',
-    body: 'Built <strong>LittleKars</strong> for an Israel-based client using Flutter, and shipped it to both the <strong>App Store</strong> and <strong>Play Store</strong> as a production mobile app.',
-    tags: ['Flutter', 'App Store', 'Play Store'],
-  },
-  {
-    num: '04',
-    label: 'EdTech + AI',
-    title: 'Bricks AI LMS',
-    body: 'Built the <strong>Bricks AI LMS</strong>, designed around <strong>voice AI tutoring</strong> and practice-led learning so students could learn concepts by doing instead of just watching.',
-    tags: ['LMS', 'Voice AI', 'EdTech'],
-  },
-  {
-    num: '05',
     label: 'Internal Tooling',
     title: 'Communication Standardisation Tool',
     body: 'Built a tool to <strong>standardise team communication</strong> — turning inconsistent messaging into a consistent, on-brand format across the org.',
@@ -46,7 +18,27 @@ const PROJECTS = [
     ],
   },
   {
-    num: '06',
+    num: '02',
+    label: 'Full-Stack Product',
+    title: 'SortMyPrep CRM',
+    body: 'Built the <strong>entire CRM</strong> for SortMyPrep from scratch — lead tracking, outreach, and reporting in one dashboard the team runs daily.',
+    tags: ['CRM', 'Full-Stack', 'Dashboard'],
+    links: [
+      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/sortmyprepcrm' },
+    ],
+  },
+  {
+    num: '03',
+    label: 'GTM Systems',
+    title: 'SortMyPrep Lead Automation',
+    body: 'Built a <strong>lead generation and outreach automation</strong> system for SortMyPrep, powering target-list building and follow-ups end-to-end.',
+    tags: ['Lead Gen', 'Automation', 'GTM'],
+    links: [
+      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/SortMyPrep-Lead-Automation' },
+    ],
+  },
+  {
+    num: '04',
     label: 'Growth Systems',
     title: 'Post Automation Tool',
     body: 'Built a tool to <strong>automate content posting</strong>, cutting the manual work out of scheduling and publishing.',
@@ -57,27 +49,24 @@ const PROJECTS = [
     ],
   },
   {
+    num: '05',
+    label: 'Marketing Systems',
+    title: 'ShouldI?',
+    body: 'Built a <strong>decision-making system</strong> for a marketing company where agent personas could simulate reactions to launch ideas and campaign decisions before going live. It was used to launch <strong>3 marketing campaigns</strong>, and <strong>all three were hits</strong>.',
+    tags: ['Agents', 'Personas', 'Marketing'],
+  },
+  {
+    num: '06',
+    label: 'Knowledge Systems',
+    title: 'RAG Document Retrieval Platform',
+    body: 'Built a <strong>RAG system</strong> to help teams find company documents faster. The same approach was later adopted by my college for document discovery and internal knowledge access.',
+    tags: ['RAG', 'Docs Search', 'Knowledge Base'],
+    links: [
+      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/LemniscaRAG' },
+    ],
+  },
+  {
     num: '07',
-    label: 'GTM Systems',
-    title: 'SortMyPrep Lead Automation',
-    body: 'Built a <strong>lead generation and outreach automation</strong> system for SortMyPrep, powering target-list building and follow-ups end-to-end.',
-    tags: ['Lead Gen', 'Automation', 'GTM'],
-    links: [
-      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/SortMyPrep-Lead-Automation' },
-    ],
-  },
-  {
-    num: '08',
-    label: 'Full-Stack Product',
-    title: 'SortMyPrep CRM',
-    body: 'Built the <strong>entire CRM</strong> for SortMyPrep from scratch — lead tracking, outreach, and reporting in one dashboard the team runs daily.',
-    tags: ['CRM', 'Full-Stack', 'Dashboard'],
-    links: [
-      { label: 'GitHub', url: 'https://github.com/Adhyayan2107/sortmyprepcrm' },
-    ],
-  },
-  {
-    num: '09',
     label: 'Marketing Tools',
     title: 'SortMyPrep Score Predictor',
     body: 'Built a small <strong>marketing tool</strong> for SortMyPrep that predicts scores/odds to drive engagement and conversion.',
@@ -86,6 +75,20 @@ const PROJECTS = [
       { label: 'Live', url: 'https://sortmyprep-score-pred.vercel.app/odds' },
       { label: 'GitHub', url: 'https://github.com/Adhyayan2107/sortmyprep-score-pred' },
     ],
+  },
+  {
+    num: '08',
+    label: 'Mobile Product',
+    title: 'LittleKars Flutter App',
+    body: 'Built <strong>LittleKars</strong> for an Israel-based client using Flutter, and shipped it to both the <strong>App Store</strong> and <strong>Play Store</strong> as a production mobile app.',
+    tags: ['Flutter', 'App Store', 'Play Store'],
+  },
+  {
+    num: '09',
+    label: 'EdTech + AI',
+    title: 'Bricks AI LMS',
+    body: 'Built the <strong>Bricks AI LMS</strong>, designed around <strong>voice AI tutoring</strong> and practice-led learning so students could learn concepts by doing instead of just watching.',
+    tags: ['LMS', 'Voice AI', 'EdTech'],
   },
 ];
 
